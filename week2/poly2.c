@@ -13,7 +13,6 @@ scanf("%f",&a[i]);
 }
 printf("enter the value of x");
 scanf("%f",&x);
-sum=a[order];
 r=poly(x,order,a);
 printf("value of polynomial of %f=%f",x,r);
 return 0;
